@@ -14,10 +14,10 @@ class QuizeApp extends StatefulWidget {
 
 class _QuizeAppState extends State<QuizeApp> {
   static List<Question> questions = <Question>[
-    new Question("Chaimae is the most cutest Girl Ever", true),
-    new Question("Chaimae is rude", false),
-    new Question("Chaimae is the wife of issam boutissante", true),
-    new Question("Chaimae Doesn't love issam", false),
+    new Question("are you programmer", true),
+    new Question("are you stupid", false),
+    new Question("are you human", true),
+    new Question("are you robot", false),
   ];
   int currentQuestionNumber = 0;
   List<Icon> answers = <Icon>[];
